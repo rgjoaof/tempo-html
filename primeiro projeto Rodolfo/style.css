@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;  /*muda a fonte do texto*/
+
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;
+    /*altura*/
+    width: 100vw;
+    /*largura*/
+    display: flex;
+    align-items: center;
+    /*alinhando itens no centro*/
+    justify-content: center;
+    /*alinhando na lateral*/
+
+}
+
+.caixa-maior {
+    background-color: rgb(7, 6, 6);
+    opacity: 0.7;
+    /*transparencia*/
+    width: 95%;
+    /*largura*/
+    max-width: 470px;
+    /*largura maxima*/
+    border-radius: 25px;
+    /*arrendondar borda*/
+    padding: 25px;
+    /*distancia os itens*/
+}
+
+.lupa {
+    height: 20px;
+    width: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+    /*pedindo para ele ir todo a direita*/
+}
+button:hover{
+    background-color: white;
+}
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: bisque;
+    color: rgb(26, 0, 0);
+    width: calc(100% - 100px);
+    /*ele vai ocupar todo o espaço do balão e sobrando um pouco dos px q escolher*/
+
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: aliceblue;
+    font-size: 28px;
+}
+
+.temp{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.umidade{
+    color: white;
+    margin-top: 30px;
+}
